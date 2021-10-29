@@ -1,0 +1,214 @@
+.container{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url("backdrop.jpg");
+    position: relative;
+    background-size: cover;
+}
+.navbar{
+    display: flex;
+    justify-content:center;
+    align-items: space-between;
+    width: 85%;
+    margin: 0px 126px;
+    padding: 35px 0;
+    position: sticky;
+}
+.navbar h1{
+    text-transform: uppercase;
+    color:antiquewhite;
+    text-shadow:brown;
+    font-weight: bolder;
+    font-size: 60px;
+    margin-left: 30px;
+}
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px 20px;
+    position: relative;
+    font-weight: bold;
+    font-size: 30px;
+}
+.navbar ul li a:hover{
+    color:brown;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color:azure;
+    font-size: 20px;
+}
+.content h1{
+    text-align: center;
+    color:tan;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.content p{
+    text-align: center;
+    color:linen;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/*Home Page*/
+.about{
+    width: 40%;
+    margin-left: 18%;
+    top: 20%;
+    text-align: center;
+    color:darkslategray;
+
+}
+.about h1{
+    font-size: 40px;
+    margin-top: 80px;
+    text-align: center;
+    font-family: sans-serif;
+}
+.about p{
+    margin: 20px auto;
+    font-weight: 200;
+    line-height: 30px;
+    font-family:monospace;
+    color:dimgray;
+    font-size: 20px;
+    text-align: center;
+}
+
+/*Menu*/
+.Menu{
+    text-align: center;
+    margin: 40px 0px;
+}
+.grid{
+    display: grid;
+    grid-template-columns: 220px 220px 220px 220px;
+    grid-template-rows: 350px 250px;
+    grid-gap: 25px;
+    margin: 80px 192px;
+    /* margin-left: 330px;*/
+}
+
+/*Books*/
+.Books{
+    text-align: center;
+    margin: 40px 0px;
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: 220px 220px 220px 220px;
+    grid-template-rows: 350px 250px;
+    grid-gap: 25px;
+    margin: 80px 192px;
+    /* margin-left: 330px;*/
+}
+
+
+
+
+
+
+
+
+
+/*Chefs*/
+
+#chefs{
+    margin: 90px;
+    padding-left: 5cm;
+}
+#chefs h1{
+    text-align: center;
+    padding-right: 2cm;
+    position: relative;
+}
+.Chefs-team{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    width: 90%;
+    margin-top: 30px;
+}
+.Chef{
+    margin-right: 0.6em;
+    position: relative;
+    background-color: #444;
+      box-shadow: 1px 2px 10px #444;
+      transition: all 0.9s ease;
+      overflow: auto;
+}
+.Chef:hover .social-icons{
+    transform: translate(0px);
+}
+.Chef:hover img{
+    mix-blend-mode: soft-light;
+    transform: scale(1.2);
+}
+.Chef img{
+    height: 200px;
+    width: 200px;
+}
+.Details h3{
+    margin-top: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+}
+.Details h4{
+    color: rgb(78,72,72);
+    font-weight: bold;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+}
+/*-----review------*/
+
+.Reviews{
+    text-align: center;
+}
+.review-col{
+    flex-basis: 44%;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    text-align: left;
+    background: lemonchiffon;
+    padding: 25px;
+    cursor: pointer;
+    display: flex;
+}
+.review-col img{
+    height: 40px;
+    margin-left: 5px;
+    margin-right: 30px;
+    border-radius: 50%;
+}
+/*----address---*/
+.address-map{
+    text-align: center;
+}
+.footer-content{
+    text-align: center;
+}
+
+
+
+
+.footer-bottom{
+    background: #000;
+    width: 100vw;
+    padding: 20px 0;
+    text-align: center;
+}
+.footer-bottom p{
+    font-size: 14px;
+    word-spacing: 2px;
+    color: ghostwhite;
+    text-transform: capitalize;
+}
+.footer-bottom span{
+    text-transform: uppercase;
+    opacity: .4;
+    font-weight: 200;
+}
+
